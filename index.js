@@ -7,7 +7,7 @@ import shallowCompare from 'react-addons-shallow-compare';
 // Handling it requires a bunch of hacks
 // NOTE: the following variable is not declared in the constructor
 // otherwise it is undefined at init, which messes with custom indexes
-const IS_RTL = I18nManager.isRTL;
+const IS_RTL = false;
 
 export default class Carousel extends Component {
 
